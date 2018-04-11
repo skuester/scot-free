@@ -4,7 +4,8 @@
   "description": "A markdown-like language for poets and free spirits.",
   "main": "index.js",
   "scripts": {
-    "test": "tape-watch ./test/test.js -p tap-spec"
+    "test": "node ./test/test.js | tap-spec",
+    "test:w": "tape-watch ./test/test.js -p tap-spec"
   },
   "repository": {
     "type": "git",
