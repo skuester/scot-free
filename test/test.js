@@ -7,6 +7,15 @@ const ScotFree = require('./../lib/scot-free')
 // template.pipe(ScotFree.stream(opts)).pipe(out_file)
 
 example(
+'overlapping inline tags',
+
+`text with o**verlapping b//old** and italic//`,
+
+`<p>text with o<strong>verlapping b<em>old</em></strong><em> and italic</em></p>`
+)
+
+/*
+example(
 'a paragraph',
 
 `Hello, World`,
@@ -46,6 +55,7 @@ this is a normal paragraph
 <p class="t1">this paragraph is indented 1</p>
 <p class="t2">this paragraph is indented 2</p>`
 )
+*/
 
 
 
