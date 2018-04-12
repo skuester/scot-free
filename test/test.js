@@ -59,10 +59,8 @@ example(
 
 
 
-
-
-function example(description, template, output) {
-	test(description, t => {
+function example(description, template, output, runner = test) {
+	runner(description, t => {
 		let result = ScotFree(template)()
 		t.equal(result, output, 'template is correct')
 		t.end()
