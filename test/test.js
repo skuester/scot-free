@@ -14,7 +14,8 @@ example(
 `<p>text with o<strong>verlapping b<em>old</em></strong><em> and italic</em></p>`
 )
 
-/*
+
+
 example(
 'a paragraph',
 
@@ -28,11 +29,9 @@ example(
 example(
 'a multiline block',
 
-`
-one
+`one
 two
-	three
-`,
+	three`,
 
 `<pre>one
 two
@@ -40,22 +39,22 @@ two
 )
 
 
-example(
-'an indented paragraph',
 
-`
-this is a normal paragraph
+// example(
+// 'an indented paragraph',
 
-	this paragraph is indented 1
+// `
+// this is a normal paragraph
 
-		this paragraph is indented 2
-`,
+// 	this paragraph is indented 1
 
-`<p>this is a normal paragraph</p>
-<p class="t1">this paragraph is indented 1</p>
-<p class="t2">this paragraph is indented 2</p>`
-)
-*/
+// 		this paragraph is indented 2
+// `,
+
+// `<p>this is a normal paragraph</p>
+// <p class="t1">this paragraph is indented 1</p>
+// <p class="t2">this paragraph is indented 2</p>`
+// )
 
 
 
