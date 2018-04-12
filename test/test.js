@@ -49,7 +49,9 @@ example(
 
 		this paragraph is indented 2`,
 
-`<p>this is a normal paragraph</p><p class="t1">this paragraph is indented 1</p><p class="t2">this paragraph is indented 2</p>`
+`<p>this is a normal paragraph</p>
+<p class="t1">this paragraph is indented 1</p>
+<p class="t2">this paragraph is indented 2</p>`
 )
 
 
