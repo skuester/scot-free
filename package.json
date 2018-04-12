@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./test/test.js | tap-spec",
-    "test:w": "tape-watch ./test/test.js -p tap-spec"
+    "test:w": "tape-watch ./test/test.js -p tap-spec",
+    "benchmark": "node ./benchmark.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/skuester/scot-free#readme",
   "devDependencies": {
+    "benchmark": "^2.1.4",
     "tap-spec": "^4.1.1",
     "tape": "^4.9.0",
     "tape-watch": "^2.3.0"
